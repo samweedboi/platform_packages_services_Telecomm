@@ -1,11 +1,7 @@
 // Build the Telecom service.
 android_app {
     name: "Telecom",
-    libs: [
-      "telephony-common",
-      "telephony-ext",
-      "ims-ext-common",
-    ],
+    libs: ["telephony-common"],
     srcs: [
         "src/**/*.java",
         "proto/**/*.proto",
@@ -57,8 +53,6 @@ android_test {
         "android.test.base",
         "android.test.runner",
         "telephony-common",
-        "telephony-ext",
-        "ims-ext-common",
     ],
 
     jni_libs: ["libdexmakerjvmtiagent"],

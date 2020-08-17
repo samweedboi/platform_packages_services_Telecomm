@@ -366,9 +366,6 @@ public class ConnectionServiceFixture implements TestFixture<IConnectionService>
         }
 
         @Override
-        public void addParticipantWithConference(String callId, String recipients) {}
-
-        @Override
         public void connectionServiceFocusLost(Session.Info sessionInfo) throws RemoteException {
         }
 
